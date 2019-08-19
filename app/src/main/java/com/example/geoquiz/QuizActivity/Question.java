@@ -1,4 +1,4 @@
-package com.example.geoquiz;
+package com.example.geoquiz.QuizActivity;
 
 public class Question {
     private int mTextResId;
@@ -13,7 +13,7 @@ public class Question {
         return mTextResId;
     }
 
-    public void setTextResId(int textResId) {
+    public void setTextResId(int textResId) { // For future use
         mTextResId = textResId;
     }
 
@@ -21,7 +21,7 @@ public class Question {
         return mAnswerTrue;
     }
 
-    public void setAnswerTrue(boolean answerTrue) {
+    public void setAnswerTrue(boolean answerTrue) { // For future use
         mAnswerTrue = answerTrue;
     }
 }

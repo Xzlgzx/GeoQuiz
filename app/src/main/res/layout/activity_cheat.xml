@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".CheatActivity">
+    tools:context=".CheatActivity.CheatActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,10 +19,23 @@
         android:padding="24dp"
         tools:text="Answer"/>
 
-    <Button
-        android:id="@+id/show_answer_button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/show_answer_button"/>
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/show_answer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_answer_button"/>
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/return_button"/>
+    </LinearLayout>
+
 
 </LinearLayout>
